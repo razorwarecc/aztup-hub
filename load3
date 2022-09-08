@@ -1,0 +1,6 @@
+local block24 = game.Workspace:FindFirstChild("Block24")
+
+local block24ESP = Instance.new("Highlight")
+
+
+block24ESP.Parent = block24
