@@ -11,17 +11,7 @@ local block10 = game.Workspace:FindFirstChild("Block10")
 local block11 = game.Workspace:FindFirstChild("Block11")
 local block12 = game.Workspace:FindFirstChild("Block12")
 local block13 = game.Workspace:FindFirstChild("Block13")
-local block14 = game.Workspace:FindFirstChild("Block14")
-local block15 = game.Workspace:FindFirstChild("Block15")
-local block16 = game.Workspace:FindFirstChild("Block16")
-local block17 = game.Workspace:FindFirstChild("Block17")
-local block18 = game.Workspace:FindFirstChild("Block18")
-local block19 = game.Workspace:FindFirstChild("Block19")
-local block20 = game.Workspace:FindFirstChild("Block20")
-local block21 = game.Workspace:FindFirstChild("Block21")
-local block22 = game.Workspace:FindFirstChild("Block22")
-local block23 = game.Workspace:FindFirstChild("Block23")
-local block24 = game.Workspace:FindFirstChild("Block24")
+
 
 local block1ESP = Instance.new("Highlight")
 
@@ -87,58 +77,4 @@ local block13ESP = Instance.new("Highlight")
 
 
 block13ESP.Parent = block13
-wait(0.1)
-local block14ESP = Instance.new("Highlight")
 
-
-block14ESP.Parent = block14
-wait(0.1)
-local block15ESP = Instance.new("Highlight")
-
-
-block15ESP.Parent = block15
-wait(0.1)
-local block16ESP = Instance.new("Highlight")
-
-
-block16ESP.Parent = block16
-wait(0.1)
-local block17ESP = Instance.new("Highlight")
-
-
-block17ESP.Parent = block17
-wait(0.1)
-local block18ESP = Instance.new("Highlight")
-
-
-block18ESP.Parent = block18
-wait(0.1)
-local block19ESP = Instance.new("Highlight")
-
-
-block19ESP.Parent = block19
-wait(0.1)
-local block20 = Instance.new("Highlight")
-
-
-block20ESP.Parent = block20
-wait(0.1)
-local block21ESP = Instance.new("Highlight")
-
-
-block21ESP.Parent = block21
-wait(0.1)
-local block22ESP = Instance.new("Highlight")
-
-
-block22ESP.Parent = block22
-wait(0.1)
-local block23ESP = Instance.new("Highlight")
-
-
-block23ESP.Parent = block23
-wait(0.1)
-local block24ESP = Instance.new("Highlight")
-
-
-block24ESP.Parent = block24
