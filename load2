@@ -3,7 +3,7 @@ local block20 = game.Workspace:FindFirstChild("Block20")
 local block21 = game.Workspace:FindFirstChild("Block21")
 local block22 = game.Workspace:FindFirstChild("Block22")
 local block23 = game.Workspace:FindFirstChild("Block23")
-local block24 = game.Workspace:FindFirstChild("Block24")
+
 
 local block20ESP = Instance.new("Highlight")
 
@@ -24,8 +24,3 @@ local block23ESP = Instance.new("Highlight")
 
 
 block23ESP.Parent = block23
-wait(0.1)
-local block24ESP = Instance.new("Highlight")
-
-
-block24ESP.Parent = block24
