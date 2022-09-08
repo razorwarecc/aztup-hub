@@ -1,37 +1,144 @@
---Made by : https://v3rmillion.net/member.php?action=profile&uid=536485 (I don't know Aztups v3rmillion.)
+local block1 = game.Workspace:FindFirstChild("Block1")
+local block2 = game.Workspace:FindFirstChild("Block2")
+local block3 = game.Workspace:FindFirstChild("Block3")
+local block4 = game.Workspace:FindFirstChild("Block4")
+local block5 = game.Workspace:FindFirstChild("Block5")
+local block6 = game.Workspace:FindFirstChild("Block6")
+local block7 = game.Workspace:FindFirstChild("Block7")
+local block8 = game.Workspace:FindFirstChild("Block8")
+local block9 = game.Workspace:FindFirstChild("Block9")
+local block10 = game.Workspace:FindFirstChild("Block10")
+local block11 = game.Workspace:FindFirstChild("Block11")
+local block12 = game.Workspace:FindFirstChild("Block12")
+local block13 = game.Workspace:FindFirstChild("Block13")
+local block14 = game.Workspace:FindFirstChild("Block14")
+local block15 = game.Workspace:FindFirstChild("Block15")
+local block16 = game.Workspace:FindFirstChild("Block16")
+local block17 = game.Workspace:FindFirstChild("Block17")
+local block18 = game.Workspace:FindFirstChild("Block18")
+local block19 = game.Workspace:FindFirstChild("Block19")
+local block20 = game.Workspace:FindFirstChild("Block20")
+local block21 = game.Workspace:FindFirstChild("Block21")
+local block22 = game.Workspace:FindFirstChild("Block22")
+local block23 = game.Workspace:FindFirstChild("Block23")
+local block24 = game.Workspace:FindFirstChild("Block24")
 
-local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Create%20Arilis%20%26%20Aztup's%20UI%20(Old)', true))()
-local main = library:CreateWindow('Main')
-local resetChar = main:Button('Reset Character', function()
-    game:GetService('Players').LocalPlayer.Character:BreakJoints()
-end)
+local block1ESP = Instance.new("Highlight")
 
-local walkspeedBox = main:Box('Walkspeed', '16', function(value)
-    game:GetService('Players').LocalPlayer.Character.Humanoid.WalkSpeed = value
-end)
 
-local toggleJumpHeight = main:Toggle('JumpPower Toggle', function(state)
-    if state then
-        game:GetService('Players').LocalPlayer.Character.Humanoid.JumpPower = 200
-    else
-        game:GetService('Players').LocalPlayer.Character.Humanoid.JumpPower = 50
-    end
-end)
+block1ESP.Parent = block1
+wait(0.1)
+local block2ESP = Instance.new("Highlight")
 
-local autofarmSection = main:Section('Auto-Farm Section')
 
-local colorPicker = main:ColorPicker("ESP Color", Color3.fromRGB(255, 0, 0), function(color)
-    print(color)
-end)
+block2ESP.Parent = block2
+wait(0.1)
+local block3ESP = Instance.new("Highlight")
 
-local hipHeightSlider = main:Slider('Hip Height', {min = 0, max = 20, default = 0}, function(value)
-    game:GetService('Players').LocalPlayer.Character.Humanoid.HipHeight = value
-end)
 
-local sitBind = main:Bind('Sit Keybind', Enum.KeyCode.V, function(new)
-    if sitBind then
-        game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = true
-    else
-        game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
-    end
-end)
+block3ESP.Parent = block3
+wait(0.1)
+local block4ESP = Instance.new("Highlight")
+
+
+block4ESP.Parent = block4
+wait(0.1)
+local block5ESP = Instance.new("Highlight")
+
+
+block5ESP.Parent = block5
+wait(0.1)
+local block6ESP = Instance.new("Highlight")
+
+
+block6ESP.Parent = block6
+wait(0.1)
+local block7ESP = Instance.new("Highlight")
+
+
+block7ESP.Parent = block7
+wait(0.1)
+local block8ESP = Instance.new("Highlight")
+
+
+block8ESP.Parent = block8
+wait(0.1)
+local block9ESP = Instance.new("Highlight")
+
+
+block9ESP.Parent = block9
+wait(0.1)
+local block10ESP = Instance.new("Highlight")
+
+
+block10ESP.Parent = block10
+wait(0.1)
+local block11ESP = Instance.new("Highlight")
+
+
+block11ESP.Parent = block11
+wait(0.1)
+local block12ESP = Instance.new("Highlight")
+
+
+block12ESP.Parent = block12
+wait(0.1)
+local block13ESP = Instance.new("Highlight")
+
+
+block13ESP.Parent = block13
+wait(0.1)
+local block14ESP = Instance.new("Highlight")
+
+
+block14ESP.Parent = block14
+wait(0.1)
+local block15ESP = Instance.new("Highlight")
+
+
+block15ESP.Parent = block15
+wait(0.1)
+local block16ESP = Instance.new("Highlight")
+
+
+block16ESP.Parent = block16
+wait(0.1)
+local block17ESP = Instance.new("Highlight")
+
+
+block17ESP.Parent = block17
+wait(0.1)
+local block18ESP = Instance.new("Highlight")
+
+
+block18ESP.Parent = block18
+wait(0.1)
+local block19ESP = Instance.new("Highlight")
+
+
+block19ESP.Parent = block19
+wait(0.1)
+local block20 = Instance.new("Highlight")
+
+
+block20ESP.Parent = block20
+wait(0.1)
+local block21ESP = Instance.new("Highlight")
+
+
+block21ESP.Parent = block21
+wait(0.1)
+local block22ESP = Instance.new("Highlight")
+
+
+block22ESP.Parent = block22
+wait(0.1)
+local block23ESP = Instance.new("Highlight")
+
+
+block23ESP.Parent = block23
+wait(0.1)
+local block24ESP = Instance.new("Highlight")
+
+
+block24ESP.Parent = block24
